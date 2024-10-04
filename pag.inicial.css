@@ -1,0 +1,91 @@
+.topo{ /* TOPO SITE*/
+background-color: palevioletred;
+padding: 30px;
+margin-top: 0px;
+}
+.carrinho{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+body{
+    background-color:pink;
+}
+.d1{
+  margin-top: 200px;
+}
+/* MENU*/
+ul.menu, .menu li, .menu a{ 
+ margin:0; 
+ padding:0; 
+ list-style:none; 
+ text-decoration:none;
+}
+ul.menu ul{ 
+ position:absolute; 
+ display:none;
+ box-shadow:3px 3px 2px #333;
+}
+ul.menu{ 
+ float:left;
+ font-family:Verdana, Geneva, sans-serif;
+  font-size:15px; border-radius:5px; padding:0 5px;
+}
+.menu li{
+ float:left;
+width:auto;
+  position:relative;
+}
+.menu li a{ 
+ display:block;
+ padding:0 20px;
+  line-height:45px;
+  height:45px;
+  float:left;
+ transition:all 0.1s linear; 
+}
+.menu li:hover > ul.submenu-1{ 
+display:block;
+ top:45px; 
+ left:0;
+  padding:5px;
+  width:200px;
+ border-radius:0 0 5px 5px;
+}
+.menu ul.submenu-1 a{
+  width:160px;
+ padding:20px;
+  border-radius:5px;
+} 
+.menu{
+background:#CCC; 
+}
+.menu a{ color:#000;
+}
+.menu li:hover > a{ 
+background:#999;  color:#fff;
+}
+.submenu-1{
+background:#999;
+}
+.submenu-1 a{
+color:#fff;
+}
+.submenu-1 li:hover > a{
+background:#666;
+}
+
+.container{
+  margin-top: 20px;
+}
+.footer {
+  width: 100%;
+  background-color: palevioletred;
+  padding: 30px;
+  margin-top: 20px;
+}
+.icone{
+  width: 100px;
+  height: 30px;
+  float: right;
+}

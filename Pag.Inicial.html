@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>AAF STORE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="./pag.inicial.css" />    
+    <div class="topo"> <!--TOPO DO SITE-->
+      <h2 style="color: aquamarine;">AAF STORE</h2> <!--TITULO DO SITE-->
+          <input type="text" placeholder="O que você procura?" size="40"> <!--BARRA DE PESQUISA-->
+          <a href="./Login.html"><button>Login/Cadastro</button></a> <!-- BOTAO DE LOGIN E CADASTRO -->
+          <button style="float: right;"> <img class="carrinho"src="carrinho.jpg"></button>
+     </div>
+</head>
+<body>
+  <ul class="menu">  <!-- MENU -->
+    <li><a href="#">Departamento</a>
+       <ul class="submenu-1"> 
+        <li><a href="#">Livros</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Filmes</a></li>
+      </ul>
+    </li>
+      <li><a href="#">Promoções</a></li>
+            <li><a href="#">Cupom de desconto</a></li>
+  </ul>
+ <div class="d1">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!-- FOTOS CARROSEL  https://getbootstrap.com/docs/4.1/components/carousel/ -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="Slogan1.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Slogan2.png" alt="Second slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+      <!--CARDS OU LIVROS    https://getbootstrap.com/docs/4.1/components/card/-->
+  <div class="container">  <!--LIVRO 1-->
+   <div class="row">
+     <div class="col-3">
+      <div class="card-group">
+        <div class="card">
+          <img class="card-img-top" src="HP.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter e a Câmara Secreta</h5>
+            <p class="card-text">R$32,90</p>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+     </div>
+   </div>
+
+  <div class="col-3">  <!--LIVRO 2-->
+    <div class="card">
+      <img class="card-img-top" src="livro2.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">O Destino das Terras Altas</h5>
+        <p class="card-text">R$22,90</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-3">   <!--LIVRO 3-->
+    <div class="card">
+      <img class="card-img-top" src="livro3.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Um quarto com vista</h5>
+        <p class="card-text">R$25,90</p>
+        <button type="button" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-3"> <!--LIVRO 4 -->
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="livro4.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Torto Arado</h5>
+          <p class="card-text">R$32,90</p>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+</div>
+ </div>   
+
+ <div class="container">  
+  <div class="row">
+ <div class="col-3">   <!--LIVRO 5 -->
+   <div class="card">
+     <img class="card-img-top" src="livro5.jpg" alt="Card image cap">
+     <div class="card-body">
+       <h5 class="card-title">Mulheres que correm com os lobos</h5>
+       <p class="card-text">R$22,90</p>
+       <button type="button" class="btn btn-primary">Comprar</button>
+     </div>
+   </div>
+ </div>
+
+   <div class="col-3">  <!--LIVRO 6 -->
+   <div class="card">
+     <img class="card-img-top" src="livro6.jpg" alt="Card image cap">
+     <div class="card-body">
+       <h5 class="card-title">Cortes de espinhos e rosas</h5>
+       <p class="card-text">R$25,90</p>
+       <button type="button" class="btn btn-primary">Comprar</button>
+     </div>
+   </div>
+ </div>
+ <div class="col-3">  <!--LIVRO 7 -->
+  <div class="card">
+    <img class="card-img-top" src="livro7.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Vermelho, branco e sangue azul</h5>
+      <p class="card-text">R$25,90</p>
+      <button type="button" class="btn btn-primary">Comprar</button>
+    </div>
+  </div>
+</div>
+<div class="col-3">   <!--LIVRO 8 -->
+  <div class="card">
+    <img class="card-img-top" src="livro8.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Sombras e Ossos</h5>
+      <p class="card-text">R$25,90</p>
+      <button type="button" class="btn btn-primary">Comprar</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>   
+<footer class="footer">
+  <h2 style="color: aquamarine;">AAF STORE</h2>
+  <p>Siga nossa loja nas redes sociais</p>
+  <img class ="icone" src="icones.png" alt="icones">
+</footer>
+   <script src="index.js"></script>
+ <!--BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+</body>
+</html>
